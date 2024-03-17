@@ -78,5 +78,20 @@
                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
+
+        new_layer {
+            // -----------------------------------------------------------------------------------------
+            // |      |     |     |     |     |     |   |     |      |     |     |     |     |
+            // |      |     |     |     |     |     |   |     |      |     |     |     |     |
+            // |      |     |     |     |     |     |   |     |      |     |     |     |     |
+            //                    |     |     |     |   |     |      |     |
+            display-name = "Base";
+            bindings = <
+&trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans    &trans &trans &trans
+                >;
+        };
     };
 };
