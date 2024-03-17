@@ -25,9 +25,9 @@
             display-name = "Colemak";
             bindings = <
 &kp ESC    &kp Q    &kp W    &kp F     &kp P           &kp B        &kp J        &kp L         &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp TAB    &lt 1 A  &lt 2 R  &kp S     &kp T           &kp G        &kp M        &kp N         &kp E      &kp I    &kp O     &kp APOS
+&kp TAB    &lt 1 A  &lt 2 R  &lt 3 S   &kp T           &kp G        &kp M        &kp N         &kp E      &kp I    &kp O     &kp APOS
 &kp LCTRL  &kp Z    &kp X    &kp C     &kp D           &kp V        &kp K        &kp H         &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                             &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 4 ENTER  &kp LEFT_ALT  &kp RALT
+                             &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
             >;
         };
 
@@ -58,8 +58,18 @@
             bindings = <
 &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &trans    &trans  &trans    &trans        &kp L          &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &to 3     &trans  &trans    &trans        &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp LSHFT  &to 4     &trans  &trans    &trans        &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                              &trans    &kp LEFT_WIN  &kp SPACE      &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        Navigations {
+            display-name = "Nav";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans     &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans     &trans  &trans
+                        &trans  &kp LSHFT  &trans    &kp LCTRL  &kp LALT  &trans
             >;
         };
 
@@ -75,7 +85,7 @@
 &kp ESC    &kp Q  &kp W  &kp E     &kp R           &kp T        &kp Y        &kp U         &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB    &kp A  &kp S  &kp D     &kp F           &kp G        &kp H        &kp J         &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V           &kp B        &kp N        &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                         &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 4 ENTER  &kp LEFT_ALT  &kp RALT
+                         &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
             >;
         };
 
@@ -96,7 +106,6 @@
         };
 
         layer_6 {
-            display-name = "Base";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
