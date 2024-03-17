@@ -25,7 +25,7 @@
             display-name = "Colemak";
             bindings = <
 &kp ESC    &kp Q    &kp W    &kp F     &kp P           &kp B        &kp J        &kp L         &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp TAB    &lt 1 A  &lt 2 R  &lt 3 S   &kp T           &kp G        &kp M        &kp N         &kp E      &kp I    &kp O     &kp APOS
+&kp TAB    &lt 1 A  &lt 2 R  &lt 3 S   &kp T           &kp G        &kp M        &kp N         &kp E      &lt 2 I  &kp O     &kp APOS
 &kp LCTRL  &kp Z    &kp X    &kp C     &kp D           &kp V        &kp K        &kp H         &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
                              &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
             >;
@@ -82,10 +82,10 @@
 
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E     &kp R           &kp T        &kp Y        &kp U         &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D     &kp F           &kp G        &kp H        &kp J         &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V           &kp B        &kp N        &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                         &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
+&kp ESC    &kp Q  &kp W  &kp E     &kp R           &kp T        &kp Y        &kp U   &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D     &kp F           &kp G        &kp H        &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V           &kp B        &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
+                         &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &tog 4  &kp RALT
             >;
         };
 
