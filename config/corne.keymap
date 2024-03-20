@@ -114,7 +114,7 @@
             >;
         };
 
-        layer_6 {
+        Template {
             display-name = "Base";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
