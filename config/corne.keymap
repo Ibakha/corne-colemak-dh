@@ -65,10 +65,10 @@
 
             display-name = "Specials";
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR    &kp PERCENT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)     &trans         &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans     &trans     &trans     &trans        &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                 &trans     &kp LEFT_WIN  &kp SPACE      &kp RET    &trans     &kp RALT
+&kp TILDE  &kp EXCL   &kp AT     &kp HASH       &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &kp LC(A)  &kp LC(X)  &kp LC(RS(C))  &kp LC(LS(V))  &trans         &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &trans     &trans     &trans         &trans         &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                 &trans         &kp LEFT_WIN   &kp SPACE      &kp RET    &trans     &kp RALT
             >;
         };
 
