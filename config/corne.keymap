@@ -75,10 +75,10 @@
         Navigations {
             display-name = "Nav";
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans     &trans  &trans
-                        &trans  &kp LSHFT  &trans    &kp LCTRL  &kp LALT  &trans
+&trans  &trans  &trans              &trans  &trans               &trans    &kp PG_UP  &kp HOME            &kp UP    &kp END              &trans  &trans
+&trans  &trans  &kp LC(LEFT_ARROW)  &trans  &kp LC(RIGHT_ARROW)  &trans    &kp PG_DN  &kp LEFT            &kp DOWN  &kp RIGHT            &trans  &trans
+&trans  &trans  &trans              &trans  &trans               &trans    &trans     &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT_ARROW)  &trans  &trans
+                                    &trans  &trans               &trans    &trans     &trans              &trans
             >;
         };
 
