@@ -33,10 +33,10 @@
 
             display-name = "Colemak";
             bindings = <
-&kp ESC    &kp Q  &kp W    &kp F     &kp P           &kp B        &kp J        &kp L         &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp TAB    &kp A  &lt 1 R  &lt 3 S   &lt 2 T         &kp G        &kp M        &lt 2 N       &kp E      &kp I    &kp O     &kp APOS
-&kp LCTRL  &kp Z  &kp X    &kp C     &kp D           &kp V        &kp K        &kp H         &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
+&kp ESC    &kp Q  &kp W    &kp F     &kp P           &kp B        &kp J        &kp L            &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp TAB    &kp A  &lt 1 R  &lt 3 S   &lt 2 T         &kp G        &kp M        &lt 2 N          &kp E      &kp I    &kp O     &kp APOS
+&kp LCTRL  &kp Z  &kp X    &kp C     &kp D           &kp V        &kp K        &kp H            &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
@@ -66,9 +66,9 @@
             display-name = "Specials";
             bindings = <
 &kp TILDE  &kp EXCL   &kp AT     &kp HASH       &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp LC(A)  &kp LC(X)  &kp LC(RS(C))  &kp LC(LS(V))  &trans         &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans     &trans     &trans         &trans         &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                 &trans         &kp LEFT_WIN   &kp SPACE      &kp RET    &trans     &kp RALT
+&trans     &kp LC(A)  &kp LC(X)  &kp LC(RS(C))  &kp LC(LS(V))  &trans         &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&trans     &trans     &trans     &trans         &trans         &trans         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                 &trans         &trans         &kp SPACE      &kp RET    &trans     &trans
             >;
         };
 
@@ -91,10 +91,10 @@
 
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W    &kp E     &kp R           &kp T        &kp Y        &kp U         &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &lt 1 S  &lt 3 D   &lt 2 F         &kp G        &kp H        &lt 2 J       &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X    &kp C     &kp V           &kp B        &kp N        &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp LEFT_ALT  &kp RALT
+&kp ESC    &kp Q  &kp W    &kp E     &kp R           &kp T        &kp Y        &kp U            &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &lt 1 S  &lt 3 D   &lt 2 F         &kp G        &kp H        &lt 2 J          &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X    &kp C     &kp V           &kp B        &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 5 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
