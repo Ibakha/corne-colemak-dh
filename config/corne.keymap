@@ -36,7 +36,7 @@
 &kp ESC    &kp Q  &kp W    &kp F     &kp P           &kp B        &kp J        &kp L            &kp U      &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A  &lt 4 R  &lt 3 S   &lt 2 T         &kp G        &kp M        &lt 2 N          &lt 3 E    &kp I    &kp O     &kp APOS
 &kp LCTRL  &kp Z  &kp X    &kp C     &kp D           &kp V        &kp K        &kp H            &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 8 ENTER  &kp RIGHT_SHIFT  &kp RALT
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 7 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
@@ -52,7 +52,7 @@
 &kp ESC    &kp Q  &kp W    &kp E     &kp R           &kp T        &kp Y        &kp U            &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB    &kp A  &lt 4 S  &lt 3 D   &lt 2 F         &kp G        &kp H        &lt 2 J          &lt 3 K    &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X    &kp C     &kp V           &kp B        &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 8 ENTER  &kp RIGHT_SHIFT  &kp RALT
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 7 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
