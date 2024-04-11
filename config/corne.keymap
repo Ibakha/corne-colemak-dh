@@ -65,10 +65,10 @@
 
             display-name = "Specials";
             bindings = <
-&none      &none            &none        &none      &none       &none          &none      &none          &none         &none                 &none                  &trans
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&none      &kp LC(A)        &kp LC(X)    &kp LC(C)  &kp LC(V)   &trans         &none      &none          &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-                                         &trans     &trans      &trans         &trans     &trans         &trans
+&none      &none            &none        &none      &none       &none          &none         &none          &none         &none                 &none                  &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&none      &kp LC(A)        &kp LC(X)    &kp LC(C)  &kp LC(V)   &trans         &none         &none          &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+                                         &trans     &trans      &trans         &kp KP_ENTER  &trans         &trans
             >;
         };
 
