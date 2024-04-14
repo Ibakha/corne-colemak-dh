@@ -36,7 +36,7 @@
 &kp ESC    &kp Q  &kp W    &kp F     &kp P           &kp B        &kp J        &kp L            &kp U      &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A  &lt 4 R  &lt 3 S   &lt 2 T         &kp G        &kp M        &lt 2 N          &lt 3 E    &kp I    &kp O     &kp APOS
 &kp LCTRL  &kp Z  &kp X    &kp C     &kp D           &kp V        &kp K        &kp H            &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 8 ENTER  &kp RIGHT_SHIFT  &kp RALT
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 9 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
@@ -52,7 +52,7 @@
 &kp ESC    &kp Q  &kp W    &kp E     &kp R           &kp T        &kp Y        &kp U            &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB    &kp A  &lt 4 S  &lt 3 D   &lt 2 F         &kp G        &kp H        &lt 2 J          &lt 3 K    &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X    &kp C     &kp V           &kp B        &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 8 ENTER  &kp RIGHT_SHIFT  &kp RALT
+                           &kp LGUI  &kp LEFT_SHIFT  &kp SPACE    &lt 9 ENTER  &kp RIGHT_SHIFT  &kp RALT
             >;
         };
 
@@ -128,6 +128,16 @@
             >;
         };
 
+        Satisfactory {
+            display-name = "Satisf";
+            bindings = <
+&kp TAB    &kp Z  &kp V  &kp W   &kp E      &kp Q        &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp ESC
+&kp LSHFT  &kp I  &kp A  &kp S   &kp D      &kp F        &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&kp M      &kp X  &kp O  &kp N   &kp H      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
+
         Functions {
             // -----------------------------------------------------------------------------------------
             // |      |     |     |     |     |     |   |     |      |     |     |     |     |
@@ -139,7 +149,7 @@
             bindings = <
 &kp F1      &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7      &kp F8        &kp F9        &kp F10  &kp F11  &kp F12
 &trans      &trans  &trans  &trans  &tog 7  &tog 1    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans   &trans   &bt BT_NXT
-&bt BT_CLR  &trans  &trans  &trans  &trans  &tog 5    &kp C_PP    &kp C_PREV    &kp C_NEXT    &trans   &trans   &bt BT_PRV
+&bt BT_CLR  &trans  &trans  &trans  &tog 8  &tog 5    &kp C_PP    &kp C_PREV    &kp C_NEXT    &trans   &trans   &bt BT_PRV
                             &trans  &trans  &trans    &trans      &trans        &trans
             >;
         };
