@@ -121,9 +121,9 @@
         Game3 {
             display-name = "Game 3";
             bindings = <
-&kp TAB    &kp Z   &kp C   &kp W     &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Z   &kp Q   &kp W     &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &kp ESC
 &kp LSHFT  &kp I   &kp A   &kp S     &kp D      &kp G        &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
+&kp C      &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
                            &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
             >;
         };
